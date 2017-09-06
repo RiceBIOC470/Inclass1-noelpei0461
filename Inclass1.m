@@ -9,6 +9,9 @@ y = x + x
 %%
 a = '1';
 b = a+a
+
+Answer:
+In the first one, x was defined as a number "1". Thus, y can be calculated as 1+1=2. In the second one, a is defined as a word '1', but has no mathmatical meaning. Thus the calculation for b is meaningless.
 %% concatenation
 % what is being done by the following statements? what is the difference between x2 and a2? 
 % what is the difference between x2 and x2b (hint run the size command on
