@@ -1,3 +1,5 @@
+%AW: looks good. see my couple of comments below. 0.85/1.
+
 % InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
@@ -10,6 +12,7 @@ y = x + x
 a = '1';
 b = a+a
 
+%AW: In general, please make sure the text in your answers are in commments. 
 Answer:
 In the first one, x was defined as a number '1'. Thus, y can be calculated as 1+1=2. In the second one, a is defined as a character '1', but has no mathmatical meaning. Thus the calculation for b is meaningless.
 %% concatenation
@@ -69,7 +72,7 @@ In the second one, the 'oneToTen' is defined as 1:10, and thus oneToTen+10 means
 
 % 1. even numbers from two to twenty
 a=2:2:20
-
+%AW: this isn't quite right since it doesn't use the oneToTen array. should be 2*oneToTen, same for others below. -0.1. 
 b=2:2:10;
 c=[b,b+10]
 % 2. odd numbers from one to nineteen
@@ -90,6 +93,9 @@ cc=fliplr(c)
 oneToTen = oneToTen';
 fliplr(oneToTen)
 The first line converts oneToTen array to a vertical line, which cannot be fliped from left to right.
+
+%AW: you didn't find the other function. Should be flipud. -0.05. 
+
 %% matrices, . operator
 
 %look at the matrix this defines. Note the other functions zeros, eye, and
